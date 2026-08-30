@@ -16,7 +16,9 @@ int main()
   cout << "Years coding goal: ";
   cin >> years;
   cout << name << ", " << "Sounds good. Your coding goal is " << "(" << years << ")\n";
-  cout << "Hello World! I am " << name << ", and my coding goal is " << years << " years. Wish me luck!" << endl;
+  cout << "Anything else you want to add? ";
+  cin >> story;
+  cout << "Ok, so your name is " << name << ", your coding goal is " << years << "and your story is: " << story << endl;
 
   return 0;
 }

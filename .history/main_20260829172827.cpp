@@ -8,15 +8,13 @@ using namespace std;
 int main()
 {
   string name;
-  string story;
-  int years;
+  int years = 0;
 
   cout << "First name: ";
   cin >> name;
   cout << "Years coding goal: ";
   cin >> years;
-  cout << name << ", " << "Sounds good. Your coding goal is " << "(" << years << ")\n";
-  cout << "Hello World! I am " << name << ", and my coding goal is " << years << " years. Wish me luck!" << endl;
+  cout << name << ", " << "Sounds good, your coding goal is " << "(" << years << ")\n";
 
   return 0;
 }
