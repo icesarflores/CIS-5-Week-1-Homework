@@ -10,7 +10,7 @@ int main()
   string name;
   string story;
   int years;
-
+w
   cout << "First name: ";
   cin >> name;
   cout << "Years coding goal: ";
